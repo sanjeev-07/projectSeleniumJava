@@ -28,6 +28,6 @@ public class MyfirstTestCaseFW extends BaseTest {
 
 	@DataProvider(name = "testdata")
 	public Object[][] tData() {
-		return new Object[][] { { "Sanjeev07feb@gmail.com", "Zoho@0702" }, { "Sanjeev07feb@gmail.com", "Zoho0702" } };
+		return new Object[][] { { "Sanjeev07feb@gmail.com", "Zoho@0702" }, { "Sanjeev07feb@gmail.com", "Zoho0702" }, { "sk@gmail.com", "Zoho0702" } };
 	}
 }
